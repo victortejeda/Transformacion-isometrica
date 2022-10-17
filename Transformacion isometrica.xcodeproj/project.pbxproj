@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361AE44328FCBC580079A5B6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE44228FCBC580079A5B6 /* Home.swift */; };
 		364FA36528F7CCD60083D09F /* Transformacion_isometricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FA36428F7CCD60083D09F /* Transformacion_isometricaApp.swift */; };
 		364FA36728F7CCD60083D09F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FA36628F7CCD60083D09F /* ContentView.swift */; };
 		364FA36928F7CCD80083D09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364FA36828F7CCD80083D09F /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361AE44228FCBC580079A5B6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		364FA36128F7CCD60083D09F /* Transformacion isometrica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transformacion isometrica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		364FA36428F7CCD60083D09F /* Transformacion_isometricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformacion_isometricaApp.swift; sourceTree = "<group>"; };
 		364FA36628F7CCD60083D09F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361AE44128FCBC3B0079A5B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				361AE44228FCBC580079A5B6 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		364FA35828F7CCD50083D09F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		364FA36328F7CCD60083D09F /* Transformacion isometrica */ = {
 			isa = PBXGroup;
 			children = (
+				361AE44128FCBC3B0079A5B6 /* View */,
 				364FA36428F7CCD60083D09F /* Transformacion_isometricaApp.swift */,
 				364FA36628F7CCD60083D09F /* ContentView.swift */,
 				364FA36828F7CCD80083D09F /* Assets.xcassets */,
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				364FA36728F7CCD60083D09F /* ContentView.swift in Sources */,
+				361AE44328FCBC580079A5B6 /* Home.swift in Sources */,
 				364FA36528F7CCD60083D09F /* Transformacion_isometricaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
